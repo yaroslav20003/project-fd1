@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ORDER AN ART - ML</title>
+        <link rel="icon" href="img/home/logo.png">
+        <link
+        rel="stylesheet"
+        type="text/css"
+        href="styles/slick.css"
+        />
+        <link
+        rel="stylesheet"
+        type="text/css"
+        href="styles/slick-theme.css"
+        /> 
+        <link rel="stylesheet" href="styles/aos.css">
+        <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&family=Dancing+Script:wght@700&family=Indie+Flower&family=Paprika&family=Red+Hat+Text:wght@400;500;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/main-styles.css">
+        <style>
+                
+        </style>
+</head>
+<body class="body_form">
+        
+        
+        <div class="container">
+                <button  class="header-nav__icon header-nav__icon_form" onclick="openSideMenuForm()"></button>
+                <header class="header header_form">
+        
+                        <nav class="header__navigation">
+                                <div class="wrapper">
+                                        <div class="header-nav">
+                                                <a href="index.html" class="header-nav__logo"></a>
+                                                
+                                                <ul class="nav__list">
+                                                        <li class="nav__item"><a href="index.html"  class="nav__link"><span class="icon icon-home3"></span> home</a></li>
+                                                        <li class="nav__item"><a href="gallery-page.html" class="nav__link"><span class="icon icon-images"></span> gallerry</a></li>
+                                                        <li class="nav__item"><a href="book-reviews-page.html"  class="nav__link"><span class="icon icon-book"></span> book reviews</a></li>
+                                                        <li class="nav__item"><a href="form-page.html" class="nav__link nav__link_current"><span class="icon icon-pen"></span> order an art</a></li>
+                                                        <li class="nav__item"><a href="about-me-page.html" class="nav__link"><span class="icon icon-user"></span> about</a></li>
+                                                </ul>
+                                        </div>
+                                </div>
+                        </nav>    
+                        
+                        
+                </header>
+                
+
+                <aside class="side-menu side-menu_form" id="side-menu">
+                
+                        <button class="side-menu__closer" onclick="closeSideMenu(this)">&times;</button>
+                        <div class="backdrop backdrop_form" id="backdrop" onclick="closeSideMenu(this)"></div>
+                        <ul class="side-menu__list">
+                                <li class="side-menu__item"><a href="index.html" class="side-menu__link "><span class="icon icon-home3"></span> home</a></li>
+                                <li class="side-menu__item"><a href="gallery-page.html" class="side-menu__link"><span class="icon icon-images"></span> gallerry</a></li>
+                                <li class="side-menu__item"><a href="book-reviews-page.html" class="side-menu__link"><span class="icon icon-book"></span> book reviews</a></li>
+                                <li class="side-menu__item"><a href="form-page.html" class="side-menu__link side-menu__link_current"><span class="icon icon-pen"></span> order an art</a></li>
+                                <li class="side-menu__item"><a href="about-me-page.html" class="side-menu__link"><span class="icon icon-user"></span> about</a></li>
+                        </ul>
+                        
+                </aside>
+                <main class="main main_form">
+                         <section class="section-form">
+                               <div class="wrapper">
+                                        <div class="form-content-block">
+                                                <form action="/people" class="form">
+
+                                                        <h1 class="form__title">Get in touch</h1>
+                                                        <p class="form__text">I'd love to work with you! <br> Thanks for reaching out.</p>
+                                                        <div class="form__group_name">
+                                                                <div class="form__group">
+                                                                        <input type="text" id="first-name" class="form__input" placeholder=" ">
+                                                                        <label for="first-name"  class="form__label">First name</label>
+                                                                </div>
+                                                                <div class="form__group">
+                                                                        <input type="text" id="last-name" class="form__input" placeholder=" ">
+                                                                        <label for="last-name"  class="form__label">Last name</label>
+                                                                </div>
+                                                        </div>
+                
+                                                        <div class="form__group">
+                                                                <input type="email" id="email" class="form__input" placeholder=" ">
+                                                                <label for="email" class="form__label">Email</label>
+                                                        </div>
+                
+                                        
+                                                        <div class="form__group">
+                                                                <textarea class="form__input" name="message"  cols="30" rows="5" placeholder=" "></textarea>
+                                                                <label class="form__label">Write about the art that you want</label>
+                                                        </div>
+                
+                                                        <button class="form__button" type="button" onclick="openModalWindow()">Submit</button>
+                                                </form>
+                
+                                                
+                                                        
+                                                <div class="form-image">
+                                                        <img src="img/gallery/nekromans/nekromance.jpg" alt="nekromance">
+                                                </div>
+                                                        
+                                                
+
+                                                <div class="form-contact">
+                                                        
+                                                                <div class="form-contact__item form-contact__item__phone">
+                                                                        <h3 class="form-contact__item__title"><a href="tel:+375293434239">Call me</a></h3>
+                                                                        <p class="form-contact__item__text"><a href="tel:+375293434239">+375 (29) 343-42-39</a></p>
+                                                                </div>
+                                                                <div class="form-contact__item form-contact__item__email">
+                                                                        <h3 class="form-contact__item__title"><a href="mailto:mlaskunova@mail.ru">My email</a></h3>
+                                                                        <p class="form-contact__item__text"><a href="mailto:mlaskunova@mail.ru">mlaskunova@mail.ru</a></p>
+                                                                </div>
+                                                                <div class="form-contact__item form-contact__item__working-hours">
+                                                                        <h3 class="form-contact__item__title">Working hours</h3>
+                                                                        <p class="form-contact__item__text">Monday - Friday : 10am - 8pm</p>
+                                                                        <p class="form-contact__item__text">Saturday, Sunday : 12am - 6pm</p>
+                                                                </div>
+                                                        
+                                                </div>
+                                        </div>
+                               </div>
+
+                               
+                        </section>      
+
+
+                        <section class="section-feedback" >
+                                <div class="wrapper">
+
+                                        <h3 class="section-feedback__title">Feedback</h3>
+
+                                        <div class="feedback feedback-slider" data-aos="fade-up">
+                                                <div class="feedback-slider-slide feeedback-slider-slide_1">
+                                                        <div class="feedback__mark"></div>
+                                                        <p class="feedback__text">Rita managed to convey the character of a person through the very lively look that she seeks, using the dry brush technique. Believe it or not, the very magnetism that comes from this person is transmitted through the portrait.</p>
+                                                        <p class="feedback__author">&mdash; Chelsea L.</p>
+                                                </div>
+                                                <div class="feedback-slider-slide feeedback-slider-slide_2">
+                                                        <div class="feedback__mark"></div>
+                                                        <p class="feedback__text">Unusually. Fantastic, bright. I love. We had a lot, this is the first time.</p>
+                                                        <p class="feedback__author">&mdash; Just a good person</p>
+                                                </div>
+                                                <div class="feedback-slider-slide feeedback-slider-slide_3">
+                                                        <div class="feedback__mark"></div>
+                                                        <p class="feedback__text">A professional in his field. A very beautiful portrait, on time, taking into account all the wishes and, moreover, with making changes to the finished version.</p>
+                                                        <p class="feedback__author">&mdash; Johny Depp</p>
+                                                </div>
+                                                <div class="feedback-slider-slide feeedback-slider-slide_4">
+                                                        <div class="feedback__mark"></div>
+                                                        <p class="feedback__text">Gorgeous portrait!! Rita is a very talented artist! I would recommend to anyone who is interested!</p>
+                                                        <p class="feedback__author">&mdash; Dakota J.</p>
+                                                </div>
+                                                <div class="feedback-slider-slide feeedback-slider-slide_5">
+                                                        <div class="feedback__mark"></div>
+                                                        <p class="feedback__text">Thank you so much for such amazing work!!! You are a true professional of the highest category. You understood my intention perfectly. They captured and conveyed the mood. This is a real masterpiece .. It turned out better than I imagined.</p>
+                                                        <p class="feedback__author">&mdash; Kevin Hart</p>
+                                                </div>
+                                                <div class="feedback-slider-slide feeedback-slider-slide_6">
+                                                        <div class="feedback__mark"></div>
+                                                        <p class="feedback__text">Joining the above reviews, I want to thank myself once again - a beautiful, attentive, tolerant woman, a talented artist, Rita!</p>
+                                                        <p class="feedback__author">&mdash; Elon Musk</p>
+                                                </div>
+                                        </div>
+                                        
+                                </div>
+                        </section>
+
+
+                        
+                </main>
+
+                <footer class="footer footer_form">
+                        <div class="wrapper">
+                                
+                                        <div class="footer__content" data-aos="fade-down">
+                                                <div class="footer__socials">
+                                                        <p class="footer__socials__text">Follow me on socials</p>
+                                                        <ul class="footer__socials__list">
+                                                                <li class="footer__socials__item"><a href="https://instagram.com/mrlbook?igshid=MWI4MTIyMDE=" target="_blank" class="footer__socials__link footer__socials__link_instagram"></a></li>
+                                                                <li class="footer__socials__item"><a href="https://t.me/mrlbookart" target="_blank" class="footer__socials__link footer__socials__link_telegram"></a></li>
+                                                                <li class="footer__socials__item"><a href="https://vk.com/malgazhatka" target="_blank" class="footer__socials__link footer__socials__link_vk"></a></li>
+                                                        </ul>
+                                                </div>
+                                                
+                                                <div class="footer__navigation">
+                                                        <ul class="footer__navigation__list">
+                                                                <li class="footer__navigation__item"><a href="index.html"  class="footer__navigation__link">home</a></li>
+                                                                <li class="footer__navigation__item"><a href="gallery-page.html"  class="footer__navigation__link">gallery</a></li>
+                                                                <li class="footer__navigation__item"><a href="book-reviews-page.html"  class="footer__navigation__link">book reviews</a></li>
+                                                                <li class="footer__navigation__item"><a href="form-page.html" class="footer__navigation__link">order an art</a></li>
+                                                                <li class="footer__navigation__item"><a href="about-me-page.html"  class="footer__navigation__link">about</a></li>
+                                                        </ul>
+                                                </div>
+                
+                                                <div class="footer__image">
+                                                        <img src="img/footer/pallete.png" alt="pallete">
+                                                </div>
+                                                <div class="footer__copyright">
+                                                        <p class="footer__copyright__text">
+                                                                Copyright &copy; ML 
+                                                        </p>
+                                                        <p class="footer__copyright__text">
+                                                                 All rights reserved
+                                                        </p>
+                                                </div>
+                                        </div>
+                                
+                        </div>
+                </footer>
+                
+        </div>
+
+        
+        <a class="to-top-btn"></a>
+       
+       
+        <div class="form-shadow-overlay" id="form-shadow-overlay">
+                <div class="modal-box">
+                        <img src="img/form/check-mark.svg" alt="check">
+                        <h2>Success!</h2>
+                        <h3>Your form has been submitted</h3>
+                        <button class="btn-close" onclick="closeModalWindow()">Ok, close</button>
+                </div>
+        </div>
+
+        <script src="js/jquery-3.6.3.min.js"></script>
+        <script src="js/fancybox.umd.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/aos.js"></script>
+        <script>
+                AOS.init({
+                });
+        </script>
+        
+</body>
+</html>

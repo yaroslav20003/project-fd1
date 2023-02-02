@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GALLERY - ML</title>
+        <link rel="icon" href="img/home/logo.png">
+        <link
+        rel="stylesheet"
+        href="styles/fancybox.css"
+        />
+        <link rel="stylesheet" href="styles/aos.css">
+        <link rel="stylesheet" href="fonts/icomoon/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&family=Dancing+Script:wght@700&family=Indie+Flower&family=Paprika&family=Red+Hat+Text:wght@400;500;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="styles/main-styles.css">
+        
+</head>
+<body>
+       <div class="container">
+        <button  class="header-nav__icon" onclick="openSideMenuGallery()"></button>
+        <header class="header header_gallery">
+                <nav class="header__navigation">
+                        <div class="wrapper">
+                                <div class="header-nav">
+                                        <a href="index.html" class="header-nav__logo"></a>
+                                        
+                                        <ul class="nav__list">
+                                                <li class="nav__item"><a href="index.html" class="nav__link"><span class="icon icon-home3"></span> home</a></li>
+                                                <li class="nav__item"><a href="gallery-page.html" class="nav__link nav__link_current"><span class="icon icon-images"></span> gallerry</a></li>
+                                                <li class="nav__item"><a href="book-reviews-page.html" class="nav__link"><span class="icon icon-book"></span> book reviews</a></li>
+                                                <li class="nav__item"><a href="form-page.html" class="nav__link"><span class="icon icon-pen"></span> order an art</a></li>
+                                                <li class="nav__item"><a href="about-me-page.html" class="nav__link"><span class="icon icon-user"></span> about</a></li>
+                                        </ul>
+                                </div>
+                        </div>
+                </nav> 
+
+                <div class="header__content">
+
+                        <div class="header__img"><img src="img/gallery/pen.png" alt="boom"></div>
+                        <h1 class="header__title">
+                               collection of my arts
+                        </h1>
+                        <h3 class="header__subtitle">I specialize on drawing bookish characters</h3>
+
+                </div>
+        </header>
+        
+        <aside class="side-menu side-menu_gallery" id="side-menu">
+                
+                <button class="side-menu__closer" onclick="closeSideMenu(this)">&times;</button>
+                <div class="backdrop backdrop_gallery" id="backdrop" onclick="closeSideMenu(this)"></div>
+                <ul class="side-menu__list">
+                        <li class="side-menu__item"><a href="index.html" class="side-menu__link "><span class="icon icon-home3"></span> home</a></li>
+                        <li class="side-menu__item"><a href="gallery-page.html" class="side-menu__link side-menu__link_current"><span class="icon icon-images"></span> gallerry</a></li>
+                        <li class="side-menu__item"><a href="book-reviews-page.html" class="side-menu__link"><span class="icon icon-book"></span> book reviews</a></li>
+                        <li class="side-menu__item"><a href="form-page.html" class="side-menu__link"><span class="icon icon-pen"></span> order an art</a></li>
+                        <li class="side-menu__item"><a href="about-me-page.html" class="side-menu__link"><span class="icon icon-user"></span> about</a></li>
+                </ul>
+                
+        </aside>
+
+        <main class="main main_gallery">
+                <section class="section-gallery section-gallery_1">
+                        <div class="wrapper">
+                                <h2 class="section-gallery__title section-gallery__title_1"><object class="wave" type="image/svg+xml" data="img/gallery/svg-white.svg"></object>hypothesis of love<object class="wave" type="image/svg+xml" data="img/gallery/svg-white.svg" ></object></h2>
+                                <div class="gallery" >
+                                        <a class="gallery__img"  data-fancybox = "gallery-2" href="img/gallery/hypothesis-of-love/woman.jpg"><img src="img/gallery/hypothesis-of-love/woman.jpg" alt="woman"></a>
+                                        <a class="gallery__img" data-fancybox = "gallery-2" href="img/gallery/hypothesis-of-love/man.jpg"><img src="img/gallery/hypothesis-of-love/man.jpg" alt="man"></a>
+                                </div>
+                        </div>
+                </section>
+
+                <section class="section-gallery section-gallery_2" >
+                        <div class="wrapper">
+                                <h2 class="section-gallery__title section-gallery__title_2"><object class="wave" type="image/svg+xml" data="img/gallery/svg-dark.svg"></object>nekromance<object class="wave" type="image/svg+xml" data="img/gallery/svg-dark.svg"></object></h2>
+                                <div class="gallery" >
+                                        <!-- <div class="gallery-img"><img src="img/gallery/nekromans/eva.png" alt="eva"></div> -->
+                                        
+                                        <a class="gallery__img" data-fancybox = "gallery-3" href="img/gallery/nekromans/gerbert.jpg"><img src="img/gallery/nekromans/gerbert.jpg" alt="gerbet"></a>
+                                        <a class="gallery__img" data-fancybox = "gallery-3" href="img/gallery/nekromans/keilus.jpg"><img src="img/gallery/nekromans/keilus.jpg" alt="keilus"></a>
+                                        <a class="gallery__img" data-fancybox = "gallery-3" href="img/gallery/nekromans/nekromance.jpg"><img src="img/gallery/nekromans/nekromance.jpg" alt="nekromance"></a>
+                                        <a class="gallery__img" data-fancybox = "gallery-3" href="img/gallery/nekromans/eva2.jpg"><img src="img/gallery/nekromans/eva2.jpg" alt="eva2"></a>
+                                </div>
+                        </div>
+                </section>
+
+                <section class="section-gallery section-gallery_3" >
+                        <div class="wrapper">
+                                <h2 class="section-gallery__title section-gallery__title_3"><object class="wave" type="image/svg+xml" data="img/gallery/svg-white.svg"></object>court of thorns and roses<object class="wave" type="image/svg+xml" data="img/gallery/svg-white.svg"></object></h2>
+                                <div class="gallery">
+                                        <a class="gallery__img" data-fancybox = "gallery-4" href="img/gallery/kingdom-of-spikes-and-roses/azriel.jpg"><img src="img/gallery/kingdom-of-spikes-and-roses/azriel.jpg" alt="1"></a>
+                                        <a class="gallery__img" data-fancybox = "gallery-4" href="img/gallery/kingdom-of-spikes-and-roses/azriel1.jpg"><img src="img/gallery/kingdom-of-spikes-and-roses/azriel1.jpg"  alt="2"></a>
+                                        <a class="gallery__img" data-fancybox = "gallery-4" href="img/gallery/kingdom-of-spikes-and-roses/azriel2.jpg"><img src="img/gallery/kingdom-of-spikes-and-roses/azriel2.jpg" alt="3"></a>
+                                        
+                                </div>
+                        </div>
+                </section>
+
+                <section class="section-gallery section-gallery_4" >
+                        <div class="wrapper">
+                                <h2 class="section-gallery__title section-gallery__title_4"><object class="wave" type="image/svg+xml" data="img/gallery/svg-dark.svg"></object>raven has two lives<object class="wave" type="image/svg+xml" data="img/gallery/svg-dark.svg"></object></h2>
+                                <div class="gallery" >
+                                        <a class="gallery__img" data-fancybox = "gallery-5" href="img/gallery/raven-has-two-lives/atli.jpg"><img src="img/gallery/raven-has-two-lives/atli.jpg" alt="alti"></a>
+                                        <a class="gallery__img" data-fancybox = "gallery-5" href="img/gallery/raven-has-two-lives/kirsh.jpg"><img src="img/gallery/raven-has-two-lives/kirsh.jpg" alt="kirsh"></a>
+                                        <a class="gallery__img" data-fancybox = "gallery-5" href="img/gallery/raven-has-two-lives/vasilisa.jpg"><img src="img/gallery/raven-has-two-lives/vasilisa.jpg" alt="vasilisa"></a>
+                                        
+                                </div>
+                        </div>
+                </section>
+
+                <section class="section-gallery section-gallery_5 ">
+                        <div class="wrapper">
+                                <h2 class="section-gallery__title section-gallery__title_5"><object class="wave" type="image/svg+xml" data="img/gallery/svg-white.svg"></object>others<object class="wave" type="image/svg+xml" data="img/gallery/svg-white.svg"></object></h2>
+                                <div class="gallery" data-aos="fade-up">
+                                        <a class="gallery__img" data-fancybox = "gallery-6" href="img/gallery/others/frozen-jack.jpg"><img src="img/gallery/others/frozen-jack.jpg" alt="frozen-jack"></a>
+                                        <a class="gallery__img" data-fancybox = "gallery-6" href="img/gallery/others/spoiled.jpg"><img src="img/gallery/others/spoiled.jpg" alt="spoiled"></a>
+                                        <a class="gallery__img" data-fancybox = "gallery-6" href="img/gallery/others/dima.jpg"><img src="img/gallery/others/dima.jpg" alt="dima"></a>
+                                        <a class="gallery__img" data-fancybox = "gallery-6" href="img/gallery/others/hermiona.jpg"><img src="img/gallery/others/hermiona.jpg" alt="hermiona"></a>
+                                        <a class="gallery__img" data-fancybox = "gallery-6" href="img/gallery/others/girls.jpg"><img src="img/gallery/others/girls.jpg" alt="girls"></a>
+                                        
+                                        <a class="gallery__img" data-fancybox = "gallery-6" href="img/gallery/others/dama.jpg"><img src="img/gallery/others/dama.jpg" alt="dama"></a>
+                                        <a class="gallery__img" data-fancybox = "gallery-6" href="img/gallery/others/kumiko.jpg"><img src="img/gallery/others/kumiko.jpg" alt="kumiko"></a>
+                                        <a class="gallery__img" data-fancybox = "gallery-6" href="img/gallery/others/vi2.jpg"><img src="img/gallery/others/vi2.jpg" alt="vi2"></a>
+                                        <a class="gallery__img" data-fancybox = "gallery-6" href="img/gallery/others/lilit.jpg"><img src="img/gallery/others/lilit.jpg" alt="lilit"></a>
+                                        <a class="gallery__img" data-fancybox = "gallery-6" href="img/gallery/others/polina.jpg"><img src="img/gallery/others/polina.jpg" alt="polina"></a>
+                                        <a class="gallery__img" data-fancybox = "gallery-6" href="img/gallery/others/hands.jpg"><img src="img/gallery/others/hands.jpg" alt="hands"></a>
+
+                                </div>
+                        </div>
+                </section>
+        </main>
+
+
+
+
+
+        <footer class="footer footer_gallery">
+                <div class="wrapper">
+                        <div class="footer__content" data-aos="fade-down">
+                                <div class="footer__socials">
+                                        <p class="footer__socials__text">Follow me on socials</p>
+                                        <ul class="footer__socials__list">
+                                                <li class="footer__socials__item"><a href="https://instagram.com/mrlbook?igshid=MWI4MTIyMDE=" target="_blank" class="footer__socials__link footer__socials__link_instagram"></a></li>
+                                                <li class="footer__socials__item"><a href="https://t.me/mrlbookart" target="_blank" class="footer__socials__link footer__socials__link_telegram"></a></li>
+                                                <li class="footer__socials__item"><a href="https://vk.com/malgazhatka" target="_blank" class="footer__socials__link footer__socials__link_vk"></a></li>
+                                        </ul>
+                                </div>
+                                
+                                <div class="footer__navigation">
+                                        <ul class="footer__navigation__list">
+                                                <li class="footer__navigation__item"><a href="index.html"  class="footer__navigation__link">home</a></li>
+                                                <li class="footer__navigation__item"><a href="gallery-page.html" class="footer__navigation__link">gallery</a></li>
+                                                <li class="footer__navigation__item"><a href="book-reviews-page.html"  class="footer__navigation__link">book reviews</a></li>
+                                                <li class="footer__navigation__item"><a href="form-page.html"  class="footer__navigation__link">order an art</a></li>
+                                                <li class="footer__navigation__item"><a href="about-me-page.html"  class="footer__navigation__link">about</a></li>
+                                        </ul>
+                                </div>
+
+                                <div class="footer__image">
+                                        <img src="img/footer/pallete.png" alt="pallete">
+                                </div>
+                                <div class="footer__copyright">
+                                        <p class="footer__copyright__text">
+                                                Copyright &copy; ML 
+                                        </p>
+                                        <p class="footer__copyright__text">
+                                                 All rights reserved
+                                        </p>
+                                </div>
+                        </div>
+                </div>
+        </footer>
+       </div>
+
+      
+        <a class="to-top-btn"></a>
+
+        <script src="js/jquery-3.6.3.min.js"></script>
+        <script src="js/fancybox.umd.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/main.js"></script>
+        
+
+        <script src="js/aos.js"></script>
+        <script>
+                AOS.init({
+                });
+        </script>
+      
+       
+</body>
+</html>

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HOME - ML</title>
+        <link rel="icon" href="img/home/logo.png">
+        <link
+        rel="stylesheet"
+        type="text/css"
+        href="styles/slick.css"
+        />
+        <link
+        rel="stylesheet"
+        type="text/css"
+        href="styles/slick-theme.css"
+        /> 
+        <link rel="stylesheet" href="styles/fancybox.css">
+        <link rel="stylesheet" href="styles/aos.css">
+        <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&family=Dancing+Script:wght@700&family=Indie+Flower&family=Red+Hat+Text:wght@400;500;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/main-styles.css">
+        <style>
+                
+        </style>
+</head>
+<body class="body_home">
+       <div class="container">
+        <button  class="header-nav__icon" onclick="openSideMenuHome()" ></button>
+        <header class="header header_home">
+                
+                <nav class="header__navigation ">
+                        <div class="wrapper">
+                                <div class="header-nav">
+                                        <a href="index.html" class="header-nav__logo"></a>
+                                        
+                                        <ul class="nav__list">
+                                                <li class="nav__item"><a href="index.html" class="nav__link nav__link_current"><span class="icon icon-home3"></span> home</a></li>
+                                                <li class="nav__item"><a href="gallery-page.html" class="nav__link"><span class="icon icon-images"></span> gallerry</a></li>
+                                                <li class="nav__item"><a href="book-reviews-page.html" class="nav__link"><span class="icon icon-book"></span> book reviews</a></li>
+                                                <li class="nav__item"><a href="form-page.html" class="nav__link"><span class="icon icon-pen"></span> order an art</a></li>
+                                                <li class="nav__item"><a href="about-me-page.html" class="nav__link"><span class="icon icon-user"></span> about</a></li>
+                                        </ul>
+                                </div>
+                        </div>
+                </nav>    
+                
+               
+                
+
+                <div class="header__content">
+                        <p class="header__text">
+                                and book lover who seeks to bring joy to others through her work
+                        </p>
+
+                        <h1 class="header__title">
+                                passionate artist
+                        </h1>
+
+                        <a href="about-me-page.html" class="header__btn" target="_blank">Read more</a>
+                </div>
+        </header>
+
+        
+        
+        <aside class="side-menu side-menu_home" id="side-menu">
+                
+                <button class="side-menu__closer" onclick="closeSideMenu(this)">&times;</button>
+                <div class="backdrop backdrop_home" id="backdrop" onclick="closeSideMenu(this)"></div>
+                <ul class="side-menu__list">
+                        <li class="side-menu__item"><a href="index.html" class="side-menu__link side-menu__link_current"><span class="icon icon-home3"></span> home</a></li>
+                        <li class="side-menu__item"><a href="gallery-page.html" class="side-menu__link"><span class="icon icon-images"></span> gallerry</a></li>
+                        <li class="side-menu__item"><a href="book-reviews-page.html" class="side-menu__link"><span class="icon icon-book"></span> book reviews</a></li>
+                        <li class="side-menu__item"><a href="form-page.html" class="side-menu__link"><span class="icon icon-pen"></span> order an art</a></li>
+                        <li class="side-menu__item"><a href="about-me-page.html" class="side-menu__link"><span class="icon icon-user"></span> about</a></li>
+                </ul>
+                
+        </aside>
+
+        <main class="main main_home">
+                <section class="section-arts-home">
+                        <div class="wrapper">
+                                <div class="arts-home" data-aos="fade-up">
+                                        
+                                        <h2 class="arts-home__title">My work</h2>
+                                        <p class="arts-home__info">Reading and drawing are my favourite hobbies since the childhood. That's why combining these two was a great idea! Most of my arts are the characters from books that i read. </p>
+                                        <a class="arts-home__btn" href="gallery-page.html"  target="_blank">See all <span class="icon-arrow-right2"></span></a>
+                                        
+                                        
+                                        
+
+                                        
+                                        <a data-fancybox="gallery-1" class="arts-home__img arts-home__img_2" href=".img/home/vasilisa.jpg">
+                                                <img src="img/home/vasilisa.jpg" alt="vas">
+                                        </a>
+                                        <a data-fancybox="gallery-1" class="arts-home__img arts-home__img_4" href="img/home/kirsh.jpg">
+                                                <img src="img/home/kirsh.jpg" alt="kirsh">
+                                        </a>
+                                        <a data-fancybox="gallery-1" class="arts-home__img arts-home__img_3" href="img/home/kumiko.jpg">
+                                                <img src="img/home/kumiko.jpg" alt="kumiko">
+                                        </a>
+                                        <a data-fancybox="gallery-1" class="arts-home__img arts-home__img_1" href="img/home/demon.jpg">
+                                                <img src="img/home/demon.jpg" alt="demon">
+                                        </a>
+
+                                        <div class="arts-home__slider" >
+                                                
+                                                <a data-fancybox="gallery-1" class="arts-home__slider__slide arts-home__slider__slide_1" href="img/home/hermiona.jpg"><img src="img/home/hermiona.jpg" alt="hermiona"></a>
+                                                <a data-fancybox="gallery-1" class="arts-home__slider__slide arts-home__slider__slide_2" href="img/home/frozen-jack.jpg"><img src="img/home/frozen-jack.jpg" alt="frozen-jack"></a>
+                                                <a data-fancybox="gallery-1" class="arts-home__slider__slide arts-home__slider__slide_3" href="img/home/nekromance.jpg"><img src="img/home/nekromance.jpg" alt="necromance"></a>
+                                                <a data-fancybox="gallery-1" class="arts-home__slider__slide arts-home__slider__slide_4" href="img/home/teacher.jpg"><img src="img/home/teacher.jpg" alt="teacher"></a>
+                                                
+                                        </div>
+                                </div>
+                        </div>
+                </section>
+
+                <section class="section-book-reviews-home">
+                        
+                        <div class="book-reviews-home-background">
+                                <h2 class="book-reviews-home-title">
+                                        <a href="book-reviews-page.html" target="_blank">book reviews</a>
+                                </h2>
+                        </div>
+
+                        <div class="book-reviews-home">
+                                <div class="wrapper">
+                                                
+                                        <div class="book-reviews-home__gallery">
+                                                <div class="book-review book-review_1">
+                                                        <a class="book-review__img" onclick="openBookReviewSixth ()"><img src="img/home/book1.JPG" alt="1"></a>
+                                                        <div class="book-review__text">
+                                                                <h3><a onclick="openBookReviewSixth ()">theatre of nightmares</a></h3>
+                                                                <p>«Someone else's recognition will not make you happier...</p>
+                                                                <a onclick="openBookReviewSixth ()">Read more</a>
+                                                        </div>
+                                                </div>
+                                                <div class="book-review book-review_2">
+                                                        <a class="book-review__img" onclick="openBookReviewFifth ()"><img src="img/home/book2.JPG" alt="2"></a>
+                                                        <div class="book-review__text">
+                                                                <h3><a onclick="openBookReviewFifth ()">magic of spikes</a></h3>
+                                                                <p>To all book lovers, this story is for you! 🌿...</p>
+                                                                <a  onclick="openBookReviewFifth ()">Read more</a>
+                                                        </div>
+                                                </div>
+                                                <div class="book-review book-review_3">
+                                                        <a class="book-review__img"  onclick="openBookReviewThird ()"><img src="img/home/book3.JPG" alt="3"></a>
+                                                        <div class="book-review__text">
+                                                                <h3><a onclick="openBookReviewThird ()">gods of black hollow</a></h3>
+                                                                <p>Synopsis: Black Hollow is a mysterious city filled with...</p>
+                                                                <a onclick="openBookReviewThird ()">Read more</a>
+                                                        </div>
+                                                </div>
+                                                <div class="book-review book-review_4">
+                                                        <a class="book-review__img" onclick="openBookReviewFirst ()"><img src="img/home/book4.JPG" alt="4"></a>
+                                                        <div class="book-review__text">
+                                                                <h3><a onclick="openBookReviewFirst ()">crown of golden bones</a></h3>
+                                                                <p>The long-awaited novelty "Crown of Golden Bones" sensational by all...</p>
+                                                                <a onclick="openBookReviewFirst ()">Read more</a>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                                      
+                                
+                        
+                </section>
+
+                <section class="section-about-home">
+                        <div class="wrapper">
+                                <div class="about-home"  data-aos="fade-up">
+                                        <h2 class="about-home__title">About me</h2>
+                                        <div class="about-home__info">
+                                                
+                                                <p class="about-home__text">Welcome! My name is Margarita. I am an illustrator who creates my work entirely on a computer using a graphics tablet.One day I decided to combine two of my favorite hobbies - reading and drawing, and now I am creating custom art from books.</p>
+                                                <a href="about-me-page.html" target="_blank"  class="about-home__btn">More info</a>
+                                        </div>
+                                        <div class="about-home__img">
+                                                <img src="img/home/about-me.JPG" alt="avatar">
+                                        </div>
+
+                                </div>
+                        </div>
+                </section>
+        </main>
+
+        <footer class="footer footer_home" data-aos="fade-down">
+                <div class="wrapper">
+                        <div class="footer__content">
+                                <div class="footer__socials">
+                                        <p class="footer__socials__text">Follow me on socials</p>
+                                        <ul class="footer__socials__list">
+                                                <li class="footer__socials__item"><a href="https://instagram.com/mrlbook?igshid=MWI4MTIyMDE=" target="_blank" class="footer__socials__link footer__socials__link_instagram"></a></li>
+                                                <li class="footer__socials__item"><a href="https://t.me/mrlbookart" target="_blank" class="footer__socials__link footer__socials__link_telegram"></a></li>
+                                                <li class="footer__socials__item"><a href="https://vk.com/malgazhatka" target="_blank" class="footer__socials__link footer__socials__link_vk"></a></li>
+                                        </ul>
+                                </div>
+                                
+                                <div class="footer__navigation">
+                                        <ul class="footer__navigation__list">
+                                                <li class="footer__navigation__item"><a href="index.html" class="footer__navigation__link">home</a></li>
+                                                <li class="footer__navigation__item"><a href="gallery-page.html" class="footer__navigation__link">gallery</a></li>
+                                                <li class="footer__navigation__item"><a href="book-reviews-page.html" class="footer__navigation__link">book reviews</a></li>
+                                                <li class="footer__navigation__item"><a href="form-page.html" class="footer__navigation__link">order an art</a></li>
+                                                <li class="footer__navigation__item"><a href="about-me-page.html" class="footer__navigation__link">about</a></li>
+                                        </ul>
+                                </div>
+
+                                <div class="footer__image">
+                                        <img src="img/footer/pallete.png" alt="pallete">
+                                </div>
+                                <div class="footer__copyright">
+                                        <p class="footer__copyright__text">
+                                                Copyright &copy; ML 
+                                        </p>
+                                        <p class="footer__copyright__text">
+                                                 All rights reserved
+                                        </p>
+                                </div>
+                        </div>
+                </div>
+        </footer>
+       </div>
+
+       
+       <a class="to-top-btn"></a>
+       
+
+       <div class="book-review_opened book-review_opened_1">
+                <div class="book-review__overlay" onclick="closeBookReviewOverlay(this)"></div>
+                <div class="book-review__content">
+                        <button class="book-review__btn-close" onclick="closeBookReview(this)"></button>
+                        <div class="book-review__img"><img src="img/book-reviews/1.JPG" alt="1"></div>
+                        <h1 class="book-review__title">Crown of golden bones <span>By Jennifer Armentrout</span></h1>
+                        
+                        
+                        <div class="book-review__slider">
+                                <div class="book-review__slider__slide book-review__slider__slide_1">
+                                        <p>The long-awaited novelty "Crown of Golden Bones" by all of our and everyone's favorite cycle "From Blood and Ashes". I want to say that these are my favorite books. Unfortunately, I read the second part in the electronic version, so there is no review for it, but I will correct it as soon as I have purchased the paper version.</p>
+                                
+                                        <p>In the third part, we get to know Atlantia more, its inhabitants, customs and traditions, as well as the current king and queen. There are no disturbing events throughout the book, as in the rest of the parts. Everything is going relatively smoothly (at least for me). But at the end the most interesting begins. We finally understand who Poppy is, learn more about the gods and about who belongs to whom. Believe me, you will be completely shocked.</p>
+                                
+                                        
+                                </div>
+
+                                
+                                <div class="book-review__slider__slide book-review__slider__slide_2">
+                                        
+                                        <p>In addition, new heroes appear, but old ones also open up to us from a new side. As for our main couple Poppy and Cas, then everything is as always. Passion, desire, devotion - all at the highest level.</p> 
+                                        
+                                        <p>Penelaf in this part has grown before my eyes. Although she sympathized with me from the very beginning, now she is beyond praise. What about Casteel - some of his actions were not entirely correct in relation to the kingdom, but in part I understood him. So I wasn't disappointed in the slightest.</p>
+                                
+                                        
+                                </div>
+
+                                <div class="book-review__slider__slide book-review__slider__slide_3">
+                                        <p>Well, the ending will make you nervous and start waiting for the release of a new book (but here's the catch, the author has frozen the contract for translating the following parts, so it remains to be prayed that all the books will be published). When I closed the last page, no words can describe how many emotions I felt.</p>
+                                </div>
+                        </div>
+                        
+                </div>
+        </div>
+
+        <div class="book-review_opened book-review_opened_3">
+
+                <div class="book-review__overlay" onclick="closeBookReviewOverlay(this)"></div>     
+                <div class="book-review__content">
+                        <button class="book-review__btn-close" onclick="closeBookReview(this)"></button>
+                        <div class="book-review__img"><img src="img/book-reviews/3.JPG" alt="3"></div>
+                        <h1 class="book-review__title">Gods of black hollow <span>By A.Jr.Vrana</span></h1>
+                        
+                                
+                        <div class="book-review__slider">
+                                <div class="book-review__slider__slide book-review__slider__slide_1">
+                                        <p>Summary: Black Hollow is a mysterious city filled with dark legends. For many centuries, its inhabitants have believed in the legend that a mythical creature, the Dreamer, lures young girls into the forest. One day Elle is found dead on the outskirts of the forest. And this means one thing: the Dreamer has returned. Kai wakes up next to the lifeless body of a recently missing girl and cannot remember what has happened to him in the past few days. The young man is convinced that he did not harm her. However, the terrible secret that he hides can play a cruel joke with him.</p>
+ 
+                                </div>
+
+                                
+                                <div class="book-review__slider__slide book-review__slider__slide_2">
+                                        <p> Mason comes to Black Hollow to debunk the city's superstitions and plunges headlong into the history of an old legend. The three of them will have to figure out what hides the centuries-old evil that spreads over the foggy forests of Black Hollow.</p>
+                                        <p>I got acquainted with this book in the summer, but now is the most suitable time of the year for it. The story is told on behalf of three characters: the girl Mia, who suffers from incomprehensible dreams, the young man Kai, who hides a terrible secret, and the doctor Mason, who fled the city in search of himself and peace.</p> 
+                                </div>
+
+                                <div class="book-review__slider__slide book-review__slider__slide_3">
+                                        <p>Even though this story is very creepy in places, it was still impossible not to laugh with Kai and Mia. This couple is something. Sometimes their actions were reckless and defying logic, but thanks to the descriptions of their thoughts, you slowly begin to understand the characters.</p>
+                                        <p>So if you are a fan of Maggie Stievoter or love the Supernatural series, then you will definitely like it.</p>
+                                </div>
+                        </div>
+                        
+                </div>
+        
+        </div>
+
+        <div class="book-review_opened book-review_opened_5 ">
+                <div class="book-review__overlay" onclick="closeBookReviewOverlay(this)"></div>       
+                <div class="book-review__content">
+                        <button class="book-review__btn-close" onclick="closeBookReview(this)"></button>
+                        <div class="book-review__img"><img src="img/book-reviews/5.JPG" alt="5"></div>
+                        <h1 class="book-review__title">Magic of Spikes<span>By Margaret Rogerson</span></h1>
+                        
+                                
+                        <div class="book-review__slider">
+                                <div class="book-review__slider__slide book-review__slider__slide_1">
+                                        <p>To all book lovers, this story is for you! 🌿For from the first pages we get into the Library. In addition to ordinary books, magical specimens are stored there - grimoires that were created by sorcerers. In addition, on the way you will meet not only them, but also Mentors, demons, demons and other evil spirits.</p>
+                                
+                                        <p>The main character Elizabeth is the very pupil that grew up among magical grimoires that whisper on the shelves and rattle iron chains. From childhood, she knew and believed that sorcerers were evil. But by the will of fate, she has to resort to the help of one of them.</p>
+                                
+                                        
+                                </div>
+
+                                
+                                <div class="book-review__slider__slide book-review__slider__slide_2">
+                                        <p> Nathaniel Thorne, the same sorcerer with the demon servant Silos. I liked him because at least someone in his book did not make a man a pompous male. On the contrary, Nathaniel admired his mind, manners, while still not deprived of strength. But the main character who just stole my heart is Silas. I can talk about him forever. A demon that has a soul, it has such care that not every person can boast of it. His devotion delights, and the second hypostasis touches. I could say a lot about him, but you better get to know him yourself.</p>
+                                            
+                                </div>
+
+                                <div class="book-review__slider__slide book-review__slider__slide_3">
+                                        <p>Love line - there is nothing to say. Very easy, without any difficulties, but at the same time quite interesting. I especially liked their sarcasm and jokes. Well, besides, no snot and excessive vulgarity.</p>
+                                        <p>I was glad I didn't miss this book. I literally read it in one day. So if you want to experience book magic and awe, understandable, perhaps, only to true book lovers, then this story will definitely suit you.</p>
+                                </div>
+                        </div>
+                        
+                </div>
+        
+        </div>
+
+        <div class="book-review_opened book-review_opened_6 ">
+                <div class="book-review__overlay" onclick="closeBookReviewOverlay(this)"></div>        
+                <div class="book-review__content">
+                        <button class="book-review__btn-close" onclick="closeBookReview(this)"></button>
+                        <div class="book-review__img"><img src="img/book-reviews/6.JPG" alt="6"></div>
+                        <h1 class="book-review__title">Theatre of Nightmares<span>By Tanya Swon</span></h1>
+                        
+                                
+                        <div class="book-review__slider">
+                                <div class="book-review__slider__slide book-review__slider__slide_1">
+                                        <p>“Someone else's recognition will not make you happier. Self love is not measured by the love of others. In pursuit of popularity, you only move away from the real you ... "</p>
+                                
+                                        
+                                        <p> The atmosphere in which I plunged cannot be described in words.</p>
+                                        
+                                </div>
+
+                                
+                                <div class="book-review__slider__slide book-review__slider__slide_2">
+                                        <p> The Nightmare Theater reminds me a lot of Shadows of Saintfor, which is my favorite story.</p>
+                                        <p>The last thing I want to add is that for me there was no villain in this book as such. Those who have read or will read this book may not agree with me, but there will be those who will support. Tanya created such a hero that for the first time I did not get angry and did not condemn his actions, but, probably, I understood his feelings. Being imbued with his fate, the only thing she wanted was just to be with him in difficult times.</p>
+                                </div>
+
+                                <div class="book-review__slider__slide book-review__slider__slide_3">
+                                        
+                                        
+                                        <p>How many emotions I experienced while reading the book can not be compared with the ending. My tears have not flowed into three streams for a long time, but I do not regret a single bit. It was worth it. The book is not about the carefree life of teenagers. It has a lot of morality. And in whatever world the heroes are now, I hope they still allowed themselves to love and be loved with their soul mate.</p>
+                                </div>
+                        </div>
+                        
+                </div>
+        
+        </div>
+
+        <script src="js/jquery-3.6.3.min.js"></script>
+        <script src="js/fancybox.umd.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/aos.js"></script>
+        <script>
+                AOS.init({
+                });
+        </script>
+      
+</body>
+</html>

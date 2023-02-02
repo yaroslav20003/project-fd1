@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BOOK REVIEWS - ML</title>
+        <link rel="icon" href="img/home/logo.png">
+        <link
+        rel="stylesheet"
+        type="text/css"
+        href="styles/slick.css"
+        />
+        <link
+        rel="stylesheet"
+        type="text/css"
+        href="styles/slick-theme.css"
+        /> 
+        <link rel="stylesheet" href="styles/aos.css">
+        <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&family=Dancing+Script:wght@700&family=Indie+Flower&family=Paprika&family=Red+Hat+Text:wght@400;500;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/main-styles.css">
+
+</head>
+<body class="body_book-reviews">
+        <div class="container">
+                <button  class="header-nav__icon" onclick="openSideMenuBookReviews()"></button>
+                <header class="header header_book-reviews">
+                        <nav class="header__navigation">
+                                <div class="wrapper">
+                                        <div class="header-nav">
+                                                <a href="index.html" class="header-nav__logo"></a>
+                                               
+                                                <ul class="nav__list">
+                                                        <li class="nav__item"><a href="index.html" class="nav__link"><span class="icon icon-home3"></span> home</a></li>
+                                                        <li class="nav__item"><a href="gallery-page.html"  class="nav__link"><span class="icon icon-images"></span> gallerry</a></li>
+                                                        <li class="nav__item"><a href="book-reviews-page.html" class="nav__link nav__link_current"><span class="icon icon-book"></span> book reviews</a></li>
+                                                        <li class="nav__item"><a href="form-page.html"  class="nav__link"><span class="icon icon-pen"></span> order an art</a></li>
+                                                        <li class="nav__item"><a href="about-me-page.html" class="nav__link"><span class="icon icon-user"></span> about</a></li>
+                                                </ul>
+                                        </div>
+                                </div>
+                        </nav> 
+        
+                        <div class="header__content">
+                                <p class="header__text">
+                                       
+                                </p>
+        
+                                <h1 class="header__title">
+                                        book reviews
+                                </h1>
+        
+                                <!-- <a href="#" class="header__btn">Read more</a> -->
+                        </div>
+                </header>
+                
+                <aside class="side-menu side-menu_book-reviews" id="side-menu">
+                
+                        <button class="side-menu__closer" onclick="closeSideMenu(this)">&times;</button>
+                        <div class="backdrop backdrop_book-reviews" id="backdrop" onclick="closeSideMenu(this)"></div>
+                        <ul class="side-menu__list">
+                                <li class="side-menu__item"><a href="index.html" class="side-menu__link "><span class="icon icon-home3"></span> home</a></li>
+                                <li class="side-menu__item"><a href="gallery-page.html" class="side-menu__link"><span class="icon icon-images"></span> gallerry</a></li>
+                                <li class="side-menu__item"><a href="book-reviews-page.html" class="side-menu__link side-menu__link_current"><span class="icon icon-book"></span> book reviews</a></li>
+                                <li class="side-menu__item"><a href="form-page.html" class="side-menu__link"><span class="icon icon-pen"></span> order an art</a></li>
+                                <li class="side-menu__item"><a href="about-me-page.html" class="side-menu__link"><span class="icon icon-user"></span> about</a></li>
+                        </ul>
+                        
+                </aside>
+                <main class="main main_book-reviews">
+                        <section class="section-book-reviews section-book-reviews_1">
+                                <div class="wrapper">
+                                        <div class="book-reviews">
+                                                <a class="book-reviews__img" onclick="openBookReviewFirst()"><img src="img/book-reviews/1.JPG" alt="1"></a>
+                                                <a class="book-reviews__img" onclick="openBookReviewSecond()"><img src="img/book-reviews/2.JPG" alt="2"></a>
+                                                <a class="book-reviews__img" onclick="openBookReviewThird()"><img src="img/book-reviews/3.JPG" alt="3"></a>
+                                        </div>
+                                </div>
+                        </section>
+
+                        <section class="section-book-reviews section-book-reviews_2">
+                                <div class="wrapper">
+                                        <div class="book-reviews">
+                                                <a class="book-reviews__img" onclick="openBookReviewFourth()"><img src="img/book-reviews/4.JPG" alt="4"></a>
+                                                <div class="book-reviews__text">
+                                                        <h2>Anna Jein</h2>
+                                                        <p><a onclick="openBookReviewFourth()">Your heart will be broken</a></p>
+                                                        <p>Quote</p>
+                                                </div>
+                                        </div>
+                                </div>
+                        </section>
+
+                        <section class="section-book-reviews section-book-reviews_3">
+                                <div class="wrapper">
+                                        <div class="book-reviews">
+                                                <a class="book-reviews__img" onclick="openBookReviewFifth()"><img src="img/book-reviews/5.JPG" alt="5"></a>
+                                                <a class="book-reviews__img" onclick="openBookReviewSixth()"><img src="img/book-reviews/6.JPG" alt="6"></a>
+                                                <a class="book-reviews__img" onclick="openBookReviewSeventh()"><img src="img/book-reviews/7.JPG" alt="7"></a>
+                                        </div>
+                                </div>
+                        </section>
+                        <section class="section-book-reviews section-book-reviews_4">
+                                <div class="wrapper">
+                                        <div class="book-reviews">
+                                                <div class="book-reviews__text">
+                                                        <h2>Natali Sposo</h2>
+                                                        <p><a onclick="openBookReviewEighth()">Polihedrons</a></p>
+                                                        
+                                                </div>
+                                                <a class="book-reviews__img" onclick="openBookReviewEighth()"><img src="img/book-reviews/8.JPG" alt="8"></a>
+                                                
+                                        </div>
+                                </div>
+                        </section>
+                        
+                </main>
+
+                <footer class="footer footer_book-reviews" data-aos="fade-down">
+                        <div class="wrapper">
+                                <div class="footer__content">
+                                        <div class="footer__socials">
+                                                <p class="footer__socials__text">Follow me on socials</p>
+                                                <ul class="footer__socials__list">
+                                                        <li class="footer__socials__item"><a href="https://instagram.com/mrlbook?igshid=MWI4MTIyMDE=" target="_blank" class="footer__socials__link footer__socials__link_instagram"></a></li>
+                                                        <li class="footer__socials__item"><a href="https://t.me/mrlbookart" target="_blank" class="footer__socials__link footer__socials__link_telegram"></a></li>
+                                                        <li class="footer__socials__item"><a href="https://vk.com/malgazhatka" target="_blank" class="footer__socials__link footer__socials__link_vk"></a></li>
+                                                </ul>
+                                        </div>
+                                        
+                                        <div class="footer__navigation">
+                                                <ul class="footer__navigation__list">
+                                                        <li class="footer__navigation__item"><a href="index.html" class="footer__navigation__link">home</a></li>
+                                                        <li class="footer__navigation__item"><a href="gallery-page.html" class="footer__navigation__link">gallery</a></li>
+                                                        <li class="footer__navigation__item"><a href="book-reviews-page.html" class="footer__navigation__link">book reviews</a></li>
+                                                        <li class="footer__navigation__item"><a href="form-page.html"  class="footer__navigation__link">order an art</a></li>
+                                                        <li class="footer__navigation__item"><a href="about-me-page.html"  class="footer__navigation__link">about</a></li>
+                                                </ul>
+                                        </div>
+        
+                                        <div class="footer__image">
+                                                <img src="img/footer/pallete.png" alt="pallete">
+                                        </div>
+                                        <div class="footer__copyright">
+                                                <p class="footer__copyright__text">
+                                                        Copyright &copy; ML 
+                                                </p>
+                                                <p class="footer__copyright__text">
+                                                         All rights reserved
+                                                </p>
+                                        </div>
+                                </div>
+                        </div>
+                </footer>
+        </div>
+
+        
+        <a class="to-top-btn"></a>
+        
+        
+        <div class="book-review_opened book-review_opened_1">
+                <div class="book-review__overlay" onclick="closeBookReviewOverlay(this)"></div>
+                <div class="book-review__content">
+                        <button class="book-review__btn-close" onclick="closeBookReview(this)"></button>
+                        <div class="book-review__img"><img src="img/book-reviews/1.JPG" alt="1"></div>
+                        <h1 class="book-review__title">Crown of golden bones <span>By Jennifer Armentrout</span></h1>
+                        
+                        
+                        <div class="book-review__slider">
+                                <div class="book-review__slider__slide book-review__slider__slide_1">
+                                        <p>The long-awaited novelty "Crown of Golden Bones" by all of our and everyone's favorite cycle "From Blood and Ashes". I want to say that these are my favorite books. Unfortunately, I read the second part in the electronic version, so there is no review for it, but I will correct it as soon as I have purchased the paper version.</p>
+                                
+                                        <p>In the third part, we get to know Atlantia more, its inhabitants, customs and traditions, as well as the current king and queen. There are no disturbing events throughout the book, as in the rest of the parts. Everything is going relatively smoothly (at least for me). But at the end the most interesting begins. We finally understand who Poppy is, learn more about the gods and about who belongs to whom. Believe me, you will be completely shocked.</p>
+                                
+                                        
+                                </div>
+
+                                
+                                <div class="book-review__slider__slide book-review__slider__slide_2">
+                                        
+                                        <p>In addition, new heroes appear, but old ones also open up to us from a new side. As for our main couple Poppy and Cas, then everything is as always. Passion, desire, devotion - all at the highest level.</p> 
+                                        
+                                        <p>Penelaf in this part has grown before my eyes. Although she sympathized with me from the very beginning, now she is beyond praise. What about Casteel - some of his actions were not entirely correct in relation to the kingdom, but in part I understood him. So I wasn't disappointed in the slightest.</p>
+                                
+                                        
+                                </div>
+
+                                <div class="book-review__slider__slide book-review__slider__slide_3">
+                                        <p>Well, the ending will make you nervous and start waiting for the release of a new book (but here's the catch, the author has frozen the contract for translating the following parts, so it remains to be prayed that all the books will be published). When I closed the last page, no words can describe how many emotions I felt.</p>
+                                </div>
+                        </div>
+                        
+                </div>
+        </div>
+                        
+
+        <div class="book-review_opened book-review_opened_2">
+                <div class="book-review__overlay" onclick="closeBookReviewOverlay(this)"></div>
+
+                <div class="book-review__content">
+                        <button class="book-review__btn-close" onclick="closeBookReview(this)"></button>
+                        <div class="book-review__img"><img src="img/book-reviews/2.JPG" alt="2"></div>
+                        <h1 class="book-review__title">Hypothesis of Love <span>By Ali Hazelwood</span></h1>
+                        
+                                
+                        <div class="book-review__slider">
+                                <div class="book-review__slider__slide book-review__slider__slide_1">
+                                        <p>The many lives of theoretical physicist Elsie Hannaway have finally caught up with her. By day, she’s an adjunct professor, toiling away at grading labs and teaching thermodynamics in the hopes of landing tenure. By other day, Elsie makes up for her non-existent paycheck by offering her services as a fake girlfriend, tapping into her expertly honed people pleasing skills to embody whichever version of herself the client needs.</p>
+                                
+                                        
+                                </div>
+
+                                
+                                <div class="book-review__slider__slide book-review__slider__slide_2">
+                                        <p> And that same Jack who now sits on the hiring committee at MIT, right between Elsie and her dream job.</p>
+                                        <p>Elsie is prepared for an all-out war of scholarly sabotage but…those long, penetrating looks? Not having to be anything other than her true self when she’s with him? Will falling into an experimentalist’s orbit finally tempt her to put her most guarded theories on love into practice?</p>   
+                                </div>
+                                <div class="book-review__slider__slide book-review__slider__slide_1">
+                                       
+                                
+                                        <p>Honestly, it’s a pretty sweet gig—until her carefully constructed Elsie-verse comes crashing down. Because Jack Smith, the annoyingly attractive and broody older brother of her favorite client, turns out to be the cold-hearted experimental physicist who ruined her mentor’s career and undermined the reputation of theorists everywhere.</p> 
+                                </div>
+                        
+                        </div>
+                        
+                </div>
+        
+        </div>
+
+        <div class="book-review_opened book-review_opened_3">
+
+                <div class="book-review__overlay" onclick="closeBookReviewOverlay(this)"></div>     
+                <div class="book-review__content">
+                        <button class="book-review__btn-close" onclick="closeBookReview(this)"></button>
+                        <div class="book-review__img"><img src="img/book-reviews/3.JPG" alt="3"></div>
+                        <h1 class="book-review__title">Gods of black hollow <span>By A.Jr.Vrana</span></h1>
+                        
+                                
+                        <div class="book-review__slider">
+                                <div class="book-review__slider__slide book-review__slider__slide_1">
+                                        <p>Summary: Black Hollow is a mysterious city filled with dark legends. For many centuries, its inhabitants have believed in the legend that a mythical creature, the Dreamer, lures young girls into the forest. One day Elle is found dead on the outskirts of the forest. And this means one thing: the Dreamer has returned. Kai wakes up next to the lifeless body of a recently missing girl and cannot remember what has happened to him in the past few days. The young man is convinced that he did not harm her. However, the terrible secret that he hides can play a cruel joke with him.</p>
+ 
+                                </div>
+
+                                
+                                <div class="book-review__slider__slide book-review__slider__slide_2">
+                                        <p> Mason comes to Black Hollow to debunk the city's superstitions and plunges headlong into the history of an old legend. The three of them will have to figure out what hides the centuries-old evil that spreads over the foggy forests of Black Hollow.</p>
+                                        <p>I got acquainted with this book in the summer, but now is the most suitable time of the year for it. The story is told on behalf of three characters: the girl Mia, who suffers from incomprehensible dreams, the young man Kai, who hides a terrible secret, and the doctor Mason, who fled the city in search of himself and peace.</p> 
+                                </div>
+
+                                <div class="book-review__slider__slide book-review__slider__slide_3">
+                                        <p>Even though this story is very creepy in places, it was still impossible not to laugh with Kai and Mia. This couple is something. Sometimes their actions were reckless and defying logic, but thanks to the descriptions of their thoughts, you slowly begin to understand the characters.</p>
+                                        <p>So if you are a fan of Maggie Stievoter or love the Supernatural series, then you will definitely like it.</p>
+                                </div>
+                        </div>
+                        
+                </div>
+        
+        </div>
+
+        <div class="book-review_opened book-review_opened_4">
+                <div class="book-review__overlay" onclick="closeBookReviewOverlay(this)"></div>       
+                <div class="book-review__content">
+                        <button class="book-review__btn-close" onclick="closeBookReview(this)"></button>
+                        <div class="book-review__img"><img src="img/book-reviews/4.JPG" alt="4"></div>
+                        <h1 class="book-review__title">Your Heart Will Be Broken<span>By Anna Jein</span></h1>
+                        
+                                
+                        <div class="book-review__slider">
+                                <div class="book-review__slider__slide book-review__slider__slide_1">
+                                        <p>So, here is the long-awaited novelty from Anna Jane "Your heart will be broken." If you are waiting to see a negative review here, then you are not here, because I can talk forever about my love for this author.Just so you know, I can usually wait for the continuation of the book in the printed version, even if it is already in the electronic version, but not in this case. Literally 20 minutes later I sat down for the second.</p>
+                                
+                                        <p>And now a little about the story itself. The title speaks for itself, only my heart didn’t break, it was as if it had been torn out, because only I could become attached to the characters and the book itself in such a way.</p>
+ 
+                                </div>
+
+                                
+                                <div class="book-review__slider__slide book-review__slider__slide_3">
+                                        <p> Polina and Bars (but I prefer to call him Dima). They're just a couple of Twixes. How much I laughed at their dialogues. But most of all I liked how they got better step by step, thanks to each other, especially Dima.Well, how without "touch her and I will kill you." No matter how much we girls make excuses, but such guys win our hearts from the first pages.</p>
+                                        <p>Well, how without "touch her and I will kill you." No matter how much we girls make excuses, but such guys win our hearts from the first pages.</p>     
+                                </div>
+
+                                <div class="book-review__slider__slide book-review__slider__slide_3">
+                                        <p>And by the way, Polina and Dima were not my only favorites. Dilara and Lyokha won my heart once and for all. I don’t know why, but usually the love line of the main characters, and the characters themselves come to me more, but everything is on an equal footing here. Sometimes I even rushed between Dima and Lesha, because both were hooked.And I want to say a little about how the author writes. No matter what anyone says, Anna Jane's style is always to my liking. For me, he is real.</p>
+                                        <p>Honestly, it is very difficult to explain what I feel when I read her books, but believe me, Anna is not in vain for me at the top of all Russian-speaking authors. And why be silent, have you ever seen how many fans she has?Moreover, a huge plus is that this book touches on some important teenage issues. Especially what happens to Polina and Dima.</p>
+                                </div>
+                        </div>
+                        
+                </div>
+        
+        </div>
+
+        <div class="book-review_opened book-review_opened_5 ">
+                <div class="book-review__overlay" onclick="closeBookReviewOverlay(this)"></div>       
+                <div class="book-review__content">
+                        <button class="book-review__btn-close" onclick="closeBookReview(this)"></button>
+                        <div class="book-review__img"><img src="img/book-reviews/5.JPG" alt="5"></div>
+                        <h1 class="book-review__title">Magic of Spikes<span>By Margaret Rogerson</span></h1>
+                        
+                                
+                        <div class="book-review__slider">
+                                <div class="book-review__slider__slide book-review__slider__slide_1">
+                                        <p>To all book lovers, this story is for you! 🌿For from the first pages we get into the Library. In addition to ordinary books, magical specimens are stored there - grimoires that were created by sorcerers. In addition, on the way you will meet not only them, but also Mentors, demons, demons and other evil spirits.</p>
+                                
+                                        <p>The main character Elizabeth is the very pupil that grew up among magical grimoires that whisper on the shelves and rattle iron chains. From childhood, she knew and believed that sorcerers were evil. But by the will of fate, she has to resort to the help of one of them.</p>
+                                
+                                        
+                                </div>
+
+                                
+                                <div class="book-review__slider__slide book-review__slider__slide_2">
+                                        <p> Nathaniel Thorne, the same sorcerer with the demon servant Silos. I liked him because at least someone in his book did not make a man a pompous male. On the contrary, Nathaniel admired his mind, manners, while still not deprived of strength. But the main character who just stole my heart is Silas. I can talk about him forever. A demon that has a soul, it has such care that not every person can boast of it. His devotion delights, and the second hypostasis touches. I could say a lot about him, but you better get to know him yourself.</p>
+                                            
+                                </div>
+
+                                <div class="book-review__slider__slide book-review__slider__slide_3">
+                                        <p>Love line - there is nothing to say. Very easy, without any difficulties, but at the same time quite interesting. I especially liked their sarcasm and jokes. Well, besides, no snot and excessive vulgarity.</p>
+                                        <p>I was glad I didn't miss this book. I literally read it in one day. So if you want to experience book magic and awe, understandable, perhaps, only to true book lovers, then this story will definitely suit you.</p>
+                                </div>
+                        </div>
+                        
+                </div>
+        
+        </div>
+
+        <div class="book-review_opened book-review_opened_6 ">
+                <div class="book-review__overlay" onclick="closeBookReviewOverlay(this)"></div>        
+                <div class="book-review__content">
+                        <button class="book-review__btn-close" onclick="closeBookReview(this)"></button>
+                        <div class="book-review__img"><img src="img/book-reviews/6.JPG" alt="6"></div>
+                        <h1 class="book-review__title">Theatre of Nightmares<span>By Tanya Swon</span></h1>
+                        
+                                
+                        <div class="book-review__slider">
+                                <div class="book-review__slider__slide book-review__slider__slide_1">
+                                        <p>“Someone else's recognition will not make you happier. Self love is not measured by the love of others. In pursuit of popularity, you only move away from the real you ... "</p>
+                                
+                                        
+                                        <p> The atmosphere in which I plunged cannot be described in words.</p>
+                                        
+                                </div>
+
+                                
+                                <div class="book-review__slider__slide book-review__slider__slide_2">
+                                        <p> The Nightmare Theater reminds me a lot of Shadows of Saintfor, which is my favorite story.</p>
+                                        <p>The last thing I want to add is that for me there was no villain in this book as such. Those who have read or will read this book may not agree with me, but there will be those who will support. Tanya created such a hero that for the first time I did not get angry and did not condemn his actions, but, probably, I understood his feelings. Being imbued with his fate, the only thing she wanted was just to be with him in difficult times.</p>
+                                </div>
+
+                                <div class="book-review__slider__slide book-review__slider__slide_3">
+                                        
+                                        
+                                        <p>How many emotions I experienced while reading the book can not be compared with the ending. My tears have not flowed into three streams for a long time, but I do not regret a single bit. It was worth it. The book is not about the carefree life of teenagers. It has a lot of morality. And in whatever world the heroes are now, I hope they still allowed themselves to love and be loved with their soul mate.</p>
+                                </div>
+                        </div>
+                        
+                </div>
+        
+        </div>
+
+        <div class="book-review_opened book-review_opened_7 ">
+                <div class="book-review__overlay" onclick="closeBookReviewOverlay(this)"></div>        
+                <div class="book-review__content">
+                        <button class="book-review__btn-close" onclick="closeBookReview(this)"></button>
+                        <div class="book-review__img"><img src="img/book-reviews/7.JPG" alt="7"></div>
+                        <h1 class="book-review__title">From Blood and Ash<span>By Jennifer Lynn Armentrout</span></h1>
+                        
+                                
+                        <div class="book-review__slider">
+                                <div class="book-review__slider__slide book-review__slider__slide_1">
+                                        <p>Everyone knows about my love for this book? I mentioned her a lot in stories. Now it's time to write about it.What else can I say? Amazing. Divine. Fabulous. I read the entire book in one sitting on the same day I bought it. I have never been so excited.So far, three books have been published. And I am writing a review for the first part only because I finally ordered the third. I am sure that I will read it in one gulp, but I will not regret it.</p>
+                                        <p>So, Penelaf is a virgin, the chosen one. She was lonely and untouchable. But she is also a girl with a soul and a heart.</p>
+                                
+                                        
+                                </div>
+
+                                
+                                <div class="book-review__slider__slide book-review__slider__slide_2">
+                                        <p> And from the first pages he is kidnapped by the golden-eyed guardsman Hawk, just like the hearts of all readers. Poppy has a duty to the royal, but Hawk inflames her anger, makes her doubt everything she believes in. Their destinies are now inextricably linked with desire and thirst.</p>
+                                        <p> Leafing through page after page, I became more and more immersed in this world and more and more amazed at how beautifully the book was written. The atmosphere, the dialogues of the characters, the plot twists - everything was at the highest level. Also, for me, Penelaf and Hawk have become my favorite characters. Poppy is a smart, brave and, what is important, a strong girl.</p>  
+                                        
+                                </div>
+
+                                <div class="book-review__slider__slide book-review__slider__slide_3">
+                                       
+                                        <p>Her stubbornness, her steadfastness, her courage cannot but admire. Hawke definitely deserves all the compliments said to him. His devotion to Poppy was amazing. Every scene with him was read in one breath. In short, the best book guy I've ever met. And what chemistry between them! I was touched, then embarrassed by their passion, laughed at their jokes and sarcasm. In general, the spark between Penelaf and Hawk drove me crazy.I still remember those emotions while reading the book. So I highly recommend reading it (although I know that most of you have already read it).</p>
+                                </div>
+                        </div>
+                        
+                </div>
+        
+        </div>
+
+        <div class="book-review_opened book-review_opened_8 ">
+                <div class="book-review__overlay" onclick="closeBookReviewOverlay(this)"></div>        
+                <div class="book-review__content">
+                        <button class="book-review__btn-close" onclick="closeBookReview(this)"></button>
+                        <div class="book-review__img"><img src="img/book-reviews/8.JPG" alt="8"></div>
+                        <h1 class="book-review__title">From Blood and Ash<span>By Jennifer Lynn Armentrout</span></h1>
+                        
+                                
+                        <div class="book-review__slider">
+                                <div class="book-review__slider__slide book-review__slider__slide_1">
+                                        <p>“You are a polyhedron and I am a polyhedron. But that's normal in our system."⠀I have been looking at this book in online stores for a long time, but I bought it only in Moscow (I myself am from Belarus). On the penultimate day, I decided to go to Chitai-gorod and saw her. And I realized that this is fate.</p>
+                                        <p>The story is told from the perspective of three characters. Masha is an ordinary girl studying at a prestigious university. She does not communicate with other classmates, preferring Dima's company. He's her best friend and everyone wonders why they're best friends sometimes. But at any moment their relationship can change.</p>
+                                
+                                        
+                                </div>
+
+                                
+                                <div class="book-review__slider__slide book-review__slider__slide_2">
+                                        <p> And so it happened when a student from England, Roman, who turns out to be familiar with Dimka, transferred to their group. Only now, every time they meet between them, lightning sparks every now and then.</p>
+                                        
+                                        
+                                </div>
+
+                                <div class="book-review__slider__slide book-review__slider__slide_3">
+                                        <p>I want to say that I got pure pleasure from every page. This book is full of comfort and tenderness. It is about true friendship, sincere love, about the values ​​of life. History shows us that we are all imperfect and make mistakes. We can offend a person close to us, although in our hearts we didn’t want it at all. Or we may often regret not taking the first step towards our love because we think that you are very different. But “... both in friendship and in love, it is not necessary to match the edges. You just need not to hurt loved ones on purpose. Even if you think they deserve it. Because they won’t stop being close, and by hurting them, you will hurt yourself…”</p>
+                                </div>
+                        </div>
+                        
+                </div>
+        
+        </div>
+
+        <script src="js/jquery-3.6.3.min.js"></script>
+        <script src="js/fancybox.umd.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/aos.js"></script>
+        <script>
+                AOS.init({
+                });
+        </script>
+</body>
+</html>
